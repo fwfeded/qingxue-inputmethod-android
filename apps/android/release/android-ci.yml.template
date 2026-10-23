@@ -22,7 +22,9 @@ jobs:
           rustup toolchain install 1.96.0 --profile minimal --component clippy,rustfmt
           rustup default 1.96.0
           rustup target add aarch64-linux-android x86_64-linux-android
-          sdkmanager 'platforms;android-35' 'build-tools;35.0.0' 'ndk;27.3.13750724'
+          sdk_manager="$(find "$ANDROID_HOME/cmdline-tools" -type f -path '*/bin/sdkmanager' | sort -V | tail -n 1)"
+          test -n "$sdk_manager"
+          "$sdk_manager" 'platforms;android-35' 'build-tools;35.0.0' 'ndk;27.3.13750724'
           python -m pip install cmake==3.31.6 ninja==1.11.1.4
           chmod +x apps/android/gradlew
       - name: Build and lint

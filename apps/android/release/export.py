@@ -32,6 +32,8 @@ def selected(name, tracked):
         return False
     if name in ROOT_FILES or name in ANDROID_FILES or name.startswith(ANDROID_DIRS):
         return True
+    if name in {"updates/index.json", "updates/payload.json", "updates/README.md"}:
+        return True
     if name.startswith("crates/"):
         return True
     return name in tracked and (name.startswith(("assets/", "tools/", "apps/cli/", "apps/macos/", "apps/windows/", "apps/linux/"))
@@ -67,21 +69,37 @@ def export(destination):
     for name in selected_files:
         target = destination / name
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(ROOT / name, target)
+        copy_source(ROOT / name, target)
     docs = ROOT / "apps/android/release/docs"
     for source in docs.glob("*.md"):
-        shutil.copy2(source, destination / source.name)
+        copy_source(source, destination / source.name)
+    guide = ROOT / "docs/user/android-app-updates.md"
+    if guide.exists():
+        copy_source(guide, destination / "UPDATES.md")
+    (destination / ".gitattributes").write_text("* text=auto eol=lf\n", encoding="utf-8")
     workflow = destination / ".github/workflows/android.yml"
     workflow.parent.mkdir(parents=True)
-    shutil.copy2(ROOT / "apps/android/release/android-ci.yml.template", workflow)
+    copy_source(ROOT / "apps/android/release/android-ci.yml.template", workflow)
     upstream = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT).decode().strip()
     files = [{"path": path.relative_to(destination).as_posix(), "bytes": path.stat().st_size,
               "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
              for path in sorted(destination.rglob("*")) if path.is_file()]
-    report = {"status": "review-only-not-published", "upstream": "https://github.com/qingjian-team/qingjian",
+    report = {"status": "source-snapshot", "upstream": "https://github.com/qingjian-team/qingjian",
               "upstream_commit": upstream, "files": files, "scope": "current source snapshot; no Git history or private artifacts"}
     (destination / "SOURCE-MANIFEST.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"files": len(files), "bytes": sum(f["bytes"] for f in files), "destination": str(destination)}, ensure_ascii=False))
+
+
+def copy_source(source, destination):
+    # 公共快照统一 UTF-8 文本行尾，使 Linux checkout 与 SOURCE-MANIFEST 散列一致。
+    data = source.read_bytes()
+    try:
+        text = data.decode("utf-8")
+        if "\0" not in text:
+            data = text.replace("\r\n", "\n").encode("utf-8")
+    except UnicodeError:
+        pass
+    destination.write_bytes(data)
 
 
 if __name__ == "__main__":

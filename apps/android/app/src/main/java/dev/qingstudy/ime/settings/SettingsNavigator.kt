@@ -31,6 +31,7 @@ class SettingsNavigator(private val activity: Activity, saved: Bundle?, private 
         activity.getSystemService(InputMethodManager::class.java).hideSoftInputFromWindow(activity.currentFocus?.windowToken, 0)
         query = ""; scroll = 0
         val target = when (next) {
+            "updates" -> UpdateActivity::class.java
             "text" -> TextToolsActivity::class.java
             "textModels" -> TextModelActivity::class.java
             "voice", "voiceModels" -> VoiceSettingsActivity::class.java
@@ -200,6 +201,7 @@ class SettingsNavigator(private val activity: Activity, saved: Bundle?, private 
     private fun about() {
         ui.label("青学输入法", 22f, false)
         ui.label("版本 ${activity.packageManager.getPackageInfo(activity.packageName, 0).versionName} · 基于青简引擎的独立安卓项目")
+        ui.row("检查更新", "版本检查、更新渠道与下载安装", "↓") { navigate("updates") }
         ui.label("支持全拼、双拼、注音与英文。长按候选或点 Aa 查看完整释义；空格选词，回车原样提交。")
         ui.label("快捷输入：rq 日期，sj 时间，xq 星期；v1+2 算式；v123 中文数字；u4e00 字符。双拼使用大写 V/U 前缀。")
         ui.row("开源与数据许可", "青简及词库数据的来源和许可") {

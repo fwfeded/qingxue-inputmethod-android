@@ -9,6 +9,21 @@ import prepare
 
 
 class ReleaseBoundaryTests(unittest.TestCase):
+    def test_public_line_endings_match_git_and_binary_stays_intact(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source, target = Path(directory) / "source", Path(directory) / "target"
+            source.write_bytes("青学\r\n正文\r\n".encode())
+            export.copy_source(source, target)
+            self.assertEqual(target.read_bytes(), "青学\n正文\n".encode())
+            source.write_bytes(b"\0\r\n\xff")
+            export.copy_source(source, target)
+            self.assertEqual(target.read_bytes(), source.read_bytes())
+
+    def test_only_public_update_metadata_is_selected(self):
+        self.assertTrue(export.selected("updates/index.json", set()))
+        self.assertFalse(export.selected("updates/private.pk8", set()))
+        self.assertFalse(export.selected("apps/android/release/private.pk8", set()))
+
     def test_build_entry_files_are_kept_without_git_tracking(self):
         for name in ("app/build.gradle.kts", "build.gradle.kts", "settings.gradle.kts", "gradlew", "gradle/wrapper/gradle-wrapper.jar", "native/Cargo.toml", "native/Cargo.lock"):
             with self.subTest(name=name):

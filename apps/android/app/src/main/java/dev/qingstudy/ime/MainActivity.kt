@@ -18,6 +18,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 
 class MainActivity : Activity() {
+    private val updateState: (UpdateState) -> Unit = { if (!isFinishing) showHome() }
     private val imeState = object : ContentObserver(Handler(Looper.getMainLooper())) {
         override fun onChange(selfChange: Boolean) { if (!isFinishing) showHome() }
     }
@@ -26,9 +27,10 @@ class MainActivity : Activity() {
         for (key in listOf(Settings.Secure.DEFAULT_INPUT_METHOD, Settings.Secure.ENABLED_INPUT_METHODS)) {
             contentResolver.registerContentObserver(Settings.Secure.getUriFor(key), false, imeState)
         }
+        UpdateManager.observe(updateState)
     }
-    override fun onStop() { contentResolver.unregisterContentObserver(imeState); super.onStop() }
-    override fun onResume() { super.onResume(); showHome() }
+    override fun onStop() { UpdateManager.forget(updateState); contentResolver.unregisterContentObserver(imeState); super.onStop() }
+    override fun onResume() { super.onResume(); showHome(); UpdateManager.autoCheck(this) }
     private fun settings(page: String = "home") {
         startActivity(Intent(this, SettingsActivity::class.java).putExtra("page", page))
     }
@@ -86,7 +88,8 @@ class MainActivity : Activity() {
         val schemes = mapOf("pinyin" to "全拼", "zhuyin" to "大千注音", "xiaohe" to "小鹤双拼", "ziranma" to "自然码", "microsoft" to "微软双拼", "sogou" to "搜狗双拼", "abc" to "智能ABC", "xiaolang" to "小浪双拼", "shoudao" to "首道双拼", "jiajia" to "拼音加加")
         val script = if (prefs.optString("traditional", "off") == "off") "简体" else "繁体"
         ui.row("输入方案", "${schemes[prefs.optString("scheme", "pinyin")] ?: "全拼"} · $script", compact = true) { settings("input") }
-        ui.row("关于与帮助", "青学输入法 · 开源项目", compact = true) { settings("about") }
+        val available = UpdateManager.state.release
+        ui.row("关于与帮助", if (available != null) "可更新至 ${available.name}" else "青学输入法 · 开源项目", compact = true) { settings("about") }
         val links = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL; setPadding(ui.dp(12), 0, ui.dp(12), 0)
             background = GradientDrawable().apply { setColor(palette.key); cornerRadius = ui.dp(16).toFloat(); setStroke(ui.dp(1), palette.function) }
