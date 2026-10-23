@@ -19,6 +19,51 @@
       "sha256": "fa8f9d6b744ef4f62a0a3cf5d84c1aa93f4c0d13c202850edfba260356b4dc22"
     },
     {
+      "path": "BUILDING.md",
+      "bytes": 2703,
+      "sha256": "653f565675476e6ce3a419e3d93a36e714b971b37ff1dd8149edd2048ae3ca0f"
+    },
+    {
+      "path": "Cargo.lock",
+      "bytes": 121594,
+      "sha256": "f92fd645d1879ecee02832bd622144805e5336c4635a85407af25e9fc1a7f6d0"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 5742,
+      "sha256": "52dbf2470e10821ef972bb6edd4cf710ae7ed714fa09d610068d436364dfcdfc"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1714,
+      "sha256": "b5b4e325248e7bd62ac47ac257d6705929836133f5bdfea6693aa5d7d088662c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2227,
+      "sha256": "07638d92e4fe208ee67a8c3e000f0c483759da1e3e2e497c20be1d0169ad7618"
+    },
+    {
+      "path": "RELEASING.md",
+      "bytes": 1804,
+      "sha256": "1b731077755c461ed7a97fee4d8c7c36beb1ba0e40483e8ceb8fd8dd94851fc8"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "bytes": 1908,
+      "sha256": "6257621a2521d210d68d6dfd421d3b416b56ec13084101a4baea60cd33ba1966"
+    },
+    {
+      "path": "UPDATES.md",
+      "bytes": 1287,
+      "sha256": "dc86291f7ea35dbaec691507129acc5eefdecac1b76dfe90aaa731962816e665"
+    },
+    {
       "path": "apps/android/app/build.gradle.kts",
       "bytes": 3875,
       "sha256": "e6d5084b7344362c6819ff0422b70e2de1eae691e0f92ef1a8fc16ebeb539152"
@@ -264,6 +309,31 @@
       "sha256": "4e596d09d98e6be57ae0c4399784f696c59854e9ea3da70458e87223e49c91aa"
     },
     {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/StartupInputTest.kt",
+      "bytes": 3908,
+      "sha256": "2d7968fea0173540fc8b70a9e25fdd8a8624f54ed4b7010f80f1dcef67819a54"
+    },
+    {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/ThemePaletteTest.kt",
+      "bytes": 2585,
+      "sha256": "656d250b5ee26779571a6acb606994b4fd415fbc77de9fc041531d681b90a1fd"
+    },
+    {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/VocabularyLevelsTest.kt",
+      "bytes": 10152,
+      "sha256": "de27ab6c7edabaa5187e92154b42497ca7527b7195103f502eaf8d4d448dd2f9"
+    },
+    {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/VoiceFlowTest.kt",
+      "bytes": 16020,
+      "sha256": "9764869921dcc993c7071211541582863b5c6899742f51b382111442bd575da0"
+    },
+    {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/ZhuyinFlowTest.kt",
+      "bytes": 11160,
+      "sha256": "f50b7818c932304eb3085da65cd4d6c1bd3024e3d0f8d835434a79c63ecd9e82"
+    },
+    {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/speech/ModelNetworkTest.kt",
       "bytes": 2091,
       "sha256": "f7b9a4f79aea0053a3c1dec5bd7bb502432812150b547129ea3319b37006dfda"
@@ -399,11 +469,6 @@
       "sha256": "16bd7c39250e0ffd74a4a3aa1806cb4d72413387b54df4def748b4b30abfaf3c"
     },
     {
-      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/StartupInputTest.kt",
-      "bytes": 3908,
-      "sha256": "2d7968fea0173540fc8b70a9e25fdd8a8624f54ed4b7010f80f1dcef67819a54"
-    },
-    {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/text/FeedbackTextUiTest.kt",
       "bytes": 5020,
       "sha256": "41e25ef07824c0f6f753fa950d27768a1b78a4fe8c26cbeda072eb6af6732f4c"
@@ -439,11 +504,6 @@
       "sha256": "72852a86a5300186b248a548a914eeed11f8333cb263f6e1d0d00f4d21de725c"
     },
     {
-      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/ThemePaletteTest.kt",
-      "bytes": 2585,
-      "sha256": "656d250b5ee26779571a6acb606994b4fd415fbc77de9fc041531d681b90a1fd"
-    },
-    {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/updates/UpdateDownloadTest.kt",
       "bytes": 2519,
       "sha256": "e633fee8027acf15b056e99543e2338274b227843e3fc1f27760b35cfd6a711b"
@@ -459,24 +519,14 @@
       "sha256": "56ade16b17168f82d2222b9a0dadf838d77c9d25284e3433a5bb172a16faabca"
     },
     {
+      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/updates/UpdateOfflineTest.kt",
+      "bytes": 2872,
+      "sha256": "32477a264c766c47e7ad44d8aaffa65112eb2ee6dd7c54f5df3f786e472ddce2"
+    },
+    {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/updates/UpdateUiTest.kt",
       "bytes": 3910,
       "sha256": "bf9943dbf0d7364d58c6746338a63f5e65cf226adf285b72183a76a4dace7afd"
-    },
-    {
-      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/VocabularyLevelsTest.kt",
-      "bytes": 10152,
-      "sha256": "de27ab6c7edabaa5187e92154b42497ca7527b7195103f502eaf8d4d448dd2f9"
-    },
-    {
-      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/VoiceFlowTest.kt",
-      "bytes": 16020,
-      "sha256": "9764869921dcc993c7071211541582863b5c6899742f51b382111442bd575da0"
-    },
-    {
-      "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/ZhuyinFlowTest.kt",
-      "bytes": 11160,
-      "sha256": "f50b7818c932304eb3085da65cd4d6c1bd3024e3d0f8d835434a79c63ecd9e82"
     },
     {
       "path": "apps/android/app/src/main/AndroidManifest.xml",
@@ -534,36 +584,6 @@
       "sha256": "29072ead8769fefe8b7b772a1c869aed26693f7e8e618e5ed4e188e7b81137d1"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/AppearanceActivity.kt",
-      "bytes": 15749,
-      "sha256": "8e045ae420183d14dff59e1141c7a01eaeaf26883e557aba9f3bb78da8e09848"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/AppearancePreview.kt",
-      "bytes": 3006,
-      "sha256": "f508cf6c55276d121d67073e83917ba7e51b02076329fb6423fa4b70b476dabd"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardAppearance.kt",
-      "bytes": 4064,
-      "sha256": "f23b57467b9bea5f8928eb217f82f804c8902c3d877711befac4cf84742aa030"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardPalette.kt",
-      "bytes": 1907,
-      "sha256": "1dc613ab6633ac03acb938ad0e9a5f646407c7f82ef81862c4397bb0b10d5cf6"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardThemes.kt",
-      "bytes": 1403,
-      "sha256": "00d65299e166ea53c962d6ec92d2eb47256864137d7300f5220d2ab9bbb76d08"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/ThemeCard.kt",
-      "bytes": 1913,
-      "sha256": "c8db4eaa11578eb5ce103d36ee6ade53bc97f4349b69c8c5109983c258e65cd2"
-    },
-    {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/CandidateView.kt",
       "bytes": 2731,
       "sha256": "385af19dea3a651ba36b295782b138b57a10dd33a527510ccd57c2bf9d2b92fb"
@@ -604,79 +624,9 @@
       "sha256": "d321035975e6fc6b11a8b4d12ef5aed74898218f3fe5d750c0dafe2c1db56b6d"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/AndroidFeedbackOutput.kt",
-      "bytes": 4478,
-      "sha256": "fa30c28af9c2f221c5291d815c73817c73b66851be61f6fc55ea41330e1af6ae"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/FeedbackOutput.kt",
-      "bytes": 367,
-      "sha256": "0b051b6cce48b811575c8623e89251dcf3e00a16dca707cba4826d171fcd9caa"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/FeedbackSettings.kt",
-      "bytes": 1393,
-      "sha256": "f45c6b010ae5f45868355f67b2e709a6a5983dd44b7bb0522a03dd8319b2d2dd"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/KeyboardFeedback.kt",
-      "bytes": 1543,
-      "sha256": "41a15db032b5b426ea7a3104507d677658d719112086a6d6db9ae8ca8d044737"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/PreloadedKeySounds.kt",
-      "bytes": 1249,
-      "sha256": "a60aa430c359dd29c9e32f66d9f24116be65ecc7bd02a607a47162d4a9591e1b"
-    },
-    {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/Frame.kt",
       "bytes": 2997,
       "sha256": "b94e322ca410ed98f469235fe7cbbf5b46b17e88672e7749b4f49a30e078c8f3"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/BookIcon.kt",
-      "bytes": 1429,
-      "sha256": "f41fea4db1f486e578c31dcee4aa36129b561552b540bac035487f7ab9771d7e"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/EditorAction.kt",
-      "bytes": 788,
-      "sha256": "229898486c7740e1244b28562418cbcdf7a2dcb9601d1a8f2643897e0434df00"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/EditorDeletion.kt",
-      "bytes": 455,
-      "sha256": "0689eafc767ea1dff61788aeddd6ff94c989c3f77e5c679f0fa7eabc843825c8"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/IdleKeyboardBar.kt",
-      "bytes": 4142,
-      "sha256": "b2d1922915f63436aba45b697b63240f89e5f22e864f44a0500e08de7e25f952"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeyboardInsets.kt",
-      "bytes": 1442,
-      "sha256": "5f6a0ab72f0a83a5e0e2cc07506fb0d70ec0ab7c9291756188b2e7180c497573"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeyboardKey.kt",
-      "bytes": 5398,
-      "sha256": "c683c48aeba111bf1434ad993b9f61f16ef2f1dd52601b70cdc37bc72e38d2a8"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeySymbols.kt",
-      "bytes": 1504,
-      "sha256": "d51a5982e5d17466b8f6f8047442bbe685ab9adab0e657c85d3c4a30750e2441"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/NumericKeyboard.kt",
-      "bytes": 2234,
-      "sha256": "d8182dde26b16e589da307af3c67d130395118a417a9be2f607553531914650e"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/SymbolPanelView.kt",
-      "bytes": 3760,
-      "sha256": "1e8b5372940766880b70499683cbeb9a7bf0bf887d011781edd7505b9dd02cc0"
     },
     {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/KeyboardView.kt",
@@ -739,6 +689,121 @@
       "sha256": "1de385217e69cd1cea1c446d86b86a3882268872c64fe8014240dc383e3af0c8"
     },
     {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/SettingsActivity.kt",
+      "bytes": 2561,
+      "sha256": "c1c03953a26b727162a632848d861237d4223784a1385e9238f32d8872983fb5"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/TryInputActivity.kt",
+      "bytes": 1914,
+      "sha256": "5f1fcbbe37eaa620cd517a9075d78e8f9753aaf909203955a4a07bb9b3eda0e1"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/VocabularyLevels.kt",
+      "bytes": 2382,
+      "sha256": "d5d1d56cfb928ad5eeb3810ced997abd9c69b4c4fd8544678efdc5443313eec9"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/AppearanceActivity.kt",
+      "bytes": 15749,
+      "sha256": "8e045ae420183d14dff59e1141c7a01eaeaf26883e557aba9f3bb78da8e09848"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/AppearancePreview.kt",
+      "bytes": 3006,
+      "sha256": "f508cf6c55276d121d67073e83917ba7e51b02076329fb6423fa4b70b476dabd"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardAppearance.kt",
+      "bytes": 4064,
+      "sha256": "f23b57467b9bea5f8928eb217f82f804c8902c3d877711befac4cf84742aa030"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardPalette.kt",
+      "bytes": 1907,
+      "sha256": "1dc613ab6633ac03acb938ad0e9a5f646407c7f82ef81862c4397bb0b10d5cf6"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/KeyboardThemes.kt",
+      "bytes": 1403,
+      "sha256": "00d65299e166ea53c962d6ec92d2eb47256864137d7300f5220d2ab9bbb76d08"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/appearance/ThemeCard.kt",
+      "bytes": 1913,
+      "sha256": "c8db4eaa11578eb5ce103d36ee6ade53bc97f4349b69c8c5109983c258e65cd2"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/AndroidFeedbackOutput.kt",
+      "bytes": 4478,
+      "sha256": "fa30c28af9c2f221c5291d815c73817c73b66851be61f6fc55ea41330e1af6ae"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/FeedbackOutput.kt",
+      "bytes": 367,
+      "sha256": "0b051b6cce48b811575c8623e89251dcf3e00a16dca707cba4826d171fcd9caa"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/FeedbackSettings.kt",
+      "bytes": 1393,
+      "sha256": "f45c6b010ae5f45868355f67b2e709a6a5983dd44b7bb0522a03dd8319b2d2dd"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/KeyboardFeedback.kt",
+      "bytes": 1543,
+      "sha256": "41a15db032b5b426ea7a3104507d677658d719112086a6d6db9ae8ca8d044737"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/feedback/PreloadedKeySounds.kt",
+      "bytes": 1249,
+      "sha256": "a60aa430c359dd29c9e32f66d9f24116be65ecc7bd02a607a47162d4a9591e1b"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/BookIcon.kt",
+      "bytes": 1429,
+      "sha256": "f41fea4db1f486e578c31dcee4aa36129b561552b540bac035487f7ab9771d7e"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/EditorAction.kt",
+      "bytes": 788,
+      "sha256": "229898486c7740e1244b28562418cbcdf7a2dcb9601d1a8f2643897e0434df00"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/EditorDeletion.kt",
+      "bytes": 455,
+      "sha256": "0689eafc767ea1dff61788aeddd6ff94c989c3f77e5c679f0fa7eabc843825c8"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/IdleKeyboardBar.kt",
+      "bytes": 4142,
+      "sha256": "b2d1922915f63436aba45b697b63240f89e5f22e864f44a0500e08de7e25f952"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeySymbols.kt",
+      "bytes": 1504,
+      "sha256": "d51a5982e5d17466b8f6f8047442bbe685ab9adab0e657c85d3c4a30750e2441"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeyboardInsets.kt",
+      "bytes": 1442,
+      "sha256": "5f6a0ab72f0a83a5e0e2cc07506fb0d70ec0ab7c9291756188b2e7180c497573"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/KeyboardKey.kt",
+      "bytes": 5398,
+      "sha256": "c683c48aeba111bf1434ad993b9f61f16ef2f1dd52601b70cdc37bc72e38d2a8"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/NumericKeyboard.kt",
+      "bytes": 2234,
+      "sha256": "d8182dde26b16e589da307af3c67d130395118a417a9be2f607553531914650e"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/keyboard/SymbolPanelView.kt",
+      "bytes": 3760,
+      "sha256": "1e8b5372940766880b70499683cbeb9a7bf0bf887d011781edd7505b9dd02cc0"
+    },
+    {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/settings/SettingsNavigator.kt",
       "bytes": 16837,
       "sha256": "f28602fc7ea6f6af8e85d9e1de5564679cd54be14f1385e2cb09949080469868"
@@ -749,9 +814,9 @@
       "sha256": "aebbdfa078254b4a0f173e92394b4df70bad8a3b75c8e01d1cbe6a389b4d1ba1"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/SettingsActivity.kt",
-      "bytes": 2561,
-      "sha256": "c1c03953a26b727162a632848d861237d4223784a1385e9238f32d8872983fb5"
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/VoiceController.kt",
+      "bytes": 17555,
+      "sha256": "3b2c47454bf58254f23357f9cf8af1ace49d1814647e5d3532edde5f31c95b9a"
     },
     {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/model/VoiceModelFile.kt",
@@ -769,14 +834,14 @@
       "sha256": "15e615be2ba75b02f9c270a182f35af8225cbbda102b7fe404724d9fe5003645"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/model/VoiceModels.kt",
-      "bytes": 7583,
-      "sha256": "c07c586ff4a26c05b8c12299b566a953896a793aa2ba5085fe3fff4510a9e18e"
-    },
-    {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/model/VoiceModelTransfer.kt",
       "bytes": 3792,
       "sha256": "14fe42a302d2d0a287832f065e2bca51dd64620fc0f7ab12d2391d0ee40d8802"
+    },
+    {
+      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/model/VoiceModels.kt",
+      "bytes": 7583,
+      "sha256": "c07c586ff4a26c05b8c12299b566a953896a793aa2ba5085fe3fff4510a9e18e"
     },
     {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/online/OnlineSpeechClient.kt",
@@ -914,11 +979,6 @@
       "sha256": "1570134c72c5f528939622298cf3bf91f0083e6ccd793e3f12eecc6dc070d470"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/speech/VoiceController.kt",
-      "bytes": 17555,
-      "sha256": "3b2c47454bf58254f23357f9cf8af1ace49d1814647e5d3532edde5f31c95b9a"
-    },
-    {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/text/model/TextModelActivity.kt",
       "bytes": 4361,
       "sha256": "25ef8b5b02314a727fd52aa3f36fc55a400373890ae7eedf8635d78becc3a922"
@@ -967,11 +1027,6 @@
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/text/ui/TextWorkspace.kt",
       "bytes": 6368,
       "sha256": "3acaab4f591fbd5a389608adcdf0ad92a9dc1e7965412ed8eb51b830ec37e055"
-    },
-    {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/TryInputActivity.kt",
-      "bytes": 1914,
-      "sha256": "5f1fcbbe37eaa620cd517a9075d78e8f9753aaf909203955a4a07bb9b3eda0e1"
     },
     {
       "path": "apps/android/app/src/main/java/dev/qingstudy/ime/updates/UpdateActivity.kt",
@@ -1024,21 +1079,6 @@
       "sha256": "73539bdc7a4205eb17fdf5147bda7107446fff35da27aa6efed2b6f83d4f2429"
     },
     {
-      "path": "apps/android/app/src/main/java/dev/qingstudy/ime/VocabularyLevels.kt",
-      "bytes": 2382,
-      "sha256": "d5d1d56cfb928ad5eeb3810ced997abd9c69b4c4fd8544678efdc5443313eec9"
-    },
-    {
-      "path": "apps/android/app/src/main/notices/domains.txt",
-      "bytes": 544,
-      "sha256": "d2fea0ddfb1b595f6c6ba99b86d4ed3384bcb91d2b892ab60526bf1370b7adc1"
-    },
-    {
-      "path": "apps/android/app/src/main/notices/levels/NOTICE-en.txt",
-      "bytes": 707,
-      "sha256": "db11b335482a696e52e7a0b78e8c29c14b0bef35237728aa14879dec5a577d2e"
-    },
-    {
       "path": "apps/android/app/src/main/notices/OkHttp-Okio-APACHE-2.0.txt",
       "bytes": 11524,
       "sha256": "8d11047a666b08b80b1629b3df0335b1bf62dcedf6a1072f961c5596bae27a78"
@@ -1054,6 +1094,21 @@
       "sha256": "3100e5a0efa7ede34997e4d77f9f978a79f67a78fa1c8c15172ce871c1c102fa"
     },
     {
+      "path": "apps/android/app/src/main/notices/domains.txt",
+      "bytes": 544,
+      "sha256": "d2fea0ddfb1b595f6c6ba99b86d4ed3384bcb91d2b892ab60526bf1370b7adc1"
+    },
+    {
+      "path": "apps/android/app/src/main/notices/levels/NOTICE-en.txt",
+      "bytes": 707,
+      "sha256": "db11b335482a696e52e7a0b78e8c29c14b0bef35237728aa14879dec5a577d2e"
+    },
+    {
+      "path": "apps/android/app/src/main/notices/text/Qwen-APACHE-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
       "path": "apps/android/app/src/main/notices/text/llama-MIT.txt",
       "bytes": 1078,
       "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
@@ -1067,11 +1122,6 @@
       "path": "apps/android/app/src/main/notices/text/nlohmann-MIT.txt",
       "bytes": 1075,
       "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
-    },
-    {
-      "path": "apps/android/app/src/main/notices/text/Qwen-APACHE-2.0.txt",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     {
       "path": "apps/android/app/src/main/notices/text/xxhash-BSD.txt",
@@ -1099,16 +1149,6 @@
       "sha256": "d20a0b1c24abda0a8b05b7adec57d542898cc7a1515b580082ca20f6b94ae2b0"
     },
     {
-      "path": "apps/android/app/src/main/speech-licenses/onnxruntime-MIT.txt",
-      "bytes": 1073,
-      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
-    },
-    {
-      "path": "apps/android/app/src/main/speech-licenses/onnxruntime-ThirdPartyNotices.txt",
-      "bytes": 333694,
-      "sha256": "1624b71afb8ec44bd85fd7a8c0e84d4ac0d74de3b56aa6b04005443e1cf4a300"
-    },
-    {
       "path": "apps/android/app/src/main/speech-licenses/README.md",
       "bytes": 726,
       "sha256": "413985f1f1428984e637e4ddec7d0b02c3e4e1b259afd9a3cd83f006bf16590a"
@@ -1117,6 +1157,16 @@
       "path": "apps/android/app/src/main/speech-licenses/SenseVoice-FunASR-MODEL-LICENSE.txt",
       "bytes": 5306,
       "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8"
+    },
+    {
+      "path": "apps/android/app/src/main/speech-licenses/onnxruntime-MIT.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "apps/android/app/src/main/speech-licenses/onnxruntime-ThirdPartyNotices.txt",
+      "bytes": 333694,
+      "sha256": "1624b71afb8ec44bd85fd7a8c0e84d4ac0d74de3b56aa6b04005443e1cf4a300"
     },
     {
       "path": "apps/android/app/src/main/speech-licenses/sherpa-onnx-APACHE-2.0.txt",
@@ -1134,6 +1184,11 @@
       "sha256": "329036499b58c82966a8dabcbc172c4e2804bbb96b775fb656770e6555da3084"
     },
     {
+      "path": "apps/android/gradle.properties",
+      "bytes": 103,
+      "sha256": "fa078c27c9e4bde28a029d673875b028884505efa436b68cf60e1ac0be5b679b"
+    },
+    {
       "path": "apps/android/gradle/wrapper/gradle-wrapper.jar",
       "bytes": 43583,
       "sha256": "2db75c40782f5e8ba1fc278a5574bab070adccb2d21ca5a6e5ed840888448046"
@@ -1142,11 +1197,6 @@
       "path": "apps/android/gradle/wrapper/gradle-wrapper.properties",
       "bytes": 342,
       "sha256": "a3c43d7d068a52f8166516b52d9923bbaf086a910d34daabf77ed4294e72a417"
-    },
-    {
-      "path": "apps/android/gradle.properties",
-      "bytes": 103,
-      "sha256": "fa078c27c9e4bde28a029d673875b028884505efa436b68cf60e1ac0be5b679b"
     },
     {
       "path": "apps/android/gradlew",
@@ -1259,6 +1309,11 @@
       "sha256": "c615ce78c8a2d18572217549778b870b9d94b7c1463e14e38252ae5b0ad7f955"
     },
     {
+      "path": "apps/android/native/src/session.rs",
+      "bytes": 17394,
+      "sha256": "efc832b97a3647188f9b60a335734c1bb482dfc1bb5ac8bb31bfc7a2ba06b505"
+    },
+    {
       "path": "apps/android/native/src/session/mobile_panel.rs",
       "bytes": 2135,
       "sha256": "e40efb7dd9ac4de5a4e97b28b6c99238ee8640bab4f4445308ee5e2eea19a35b"
@@ -1277,6 +1332,11 @@
       "path": "apps/android/native/src/session/settings.rs",
       "bytes": 8953,
       "sha256": "9d5f6475929381bec4fd1d5be0fbb81dd8be4d327ab35a2249f74b318217df59"
+    },
+    {
+      "path": "apps/android/native/src/session/tests.rs",
+      "bytes": 3472,
+      "sha256": "c358566f5ffa7649180c6643ef1f974275c52f9a134ad25fa5456c839f78268d"
     },
     {
       "path": "apps/android/native/src/session/tests/dictionary_reload.rs",
@@ -1344,14 +1404,9 @@
       "sha256": "7f887d49add005641afc3dd9c8672b27111b749eaf400be0146df6d5768ecc4c"
     },
     {
-      "path": "apps/android/native/src/session/tests.rs",
-      "bytes": 3472,
-      "sha256": "c358566f5ffa7649180c6643ef1f974275c52f9a134ad25fa5456c839f78268d"
-    },
-    {
-      "path": "apps/android/native/src/session.rs",
-      "bytes": 17394,
-      "sha256": "efc832b97a3647188f9b60a335734c1bb482dfc1bb5ac8bb31bfc7a2ba06b505"
+      "path": "apps/android/release/SignUpdateIndex.java",
+      "bytes": 2481,
+      "sha256": "3aafbdea7c6a4651b9ea9e5545996a3ee9ee4c66e5c8bece844ce81b94457e60"
     },
     {
       "path": "apps/android/release/android-ci.yml.template",
@@ -1380,8 +1435,8 @@
     },
     {
       "path": "apps/android/release/docs/README.md",
-      "bytes": 1876,
-      "sha256": "4232fd80150ba14e33c5b44c05825c4950ceb0495344b2032681ed69dba796d7"
+      "bytes": 2227,
+      "sha256": "07638d92e4fe208ee67a8c3e000f0c483759da1e3e2e497c20be1d0169ad7618"
     },
     {
       "path": "apps/android/release/docs/RELEASING.md",
@@ -1427,11 +1482,6 @@
       "path": "apps/android/release/sign.ps1",
       "bytes": 2936,
       "sha256": "09fedc47669292046e92c197b771ea44531250037c157177b78911bcc21a95bc"
-    },
-    {
-      "path": "apps/android/release/SignUpdateIndex.java",
-      "bytes": 2481,
-      "sha256": "3aafbdea7c6a4651b9ea9e5545996a3ee9ee4c66e5c8bece844ce81b94457e60"
     },
     {
       "path": "apps/android/release/test_release.py",
@@ -1594,6 +1644,11 @@
       "sha256": "936759860f75185a3422e012c385f4e34c66e791b2d39184ec92927f6b6bc2fb"
     },
     {
+      "path": "apps/linux/fcitx5/README.md",
+      "bytes": 218,
+      "sha256": "cfc5796af4e96432d49340e9fde75e971de85d61331d22769147baa81cc13e58"
+    },
+    {
       "path": "apps/linux/fcitx5/data/addon/qingjian.conf",
       "bytes": 147,
       "sha256": "6da9f5a28af6a020cd3f966fcf4a75c60bdeedf35a186895b413fc6bd12d7ea4"
@@ -1602,11 +1657,6 @@
       "path": "apps/linux/fcitx5/data/inputmethod/qingjian.conf",
       "bytes": 118,
       "sha256": "81da4191ca23ef5a82d9573b5c6b24770fd7825a84a09d6975c822c0cf32534a"
-    },
-    {
-      "path": "apps/linux/fcitx5/README.md",
-      "bytes": 218,
-      "sha256": "cfc5796af4e96432d49340e9fde75e971de85d61331d22769147baa81cc13e58"
     },
     {
       "path": "apps/linux/fcitx5/src/candidate/list.h",
@@ -2054,6 +2104,11 @@
       "sha256": "1019b73a2b9fe159e13e2f865a266825a739fc314f793662191631a3b0c14fc1"
     },
     {
+      "path": "apps/macos/README.md",
+      "bytes": 2233,
+      "sha256": "d2daf85861d4abec224a6192e859adf4b27f199bef3fe2944618d0c587e9a8b5"
+    },
+    {
       "path": "apps/macos/pkg/distribution.xml",
       "bytes": 1360,
       "sha256": "ac07a2949f416ec715f0196041ba089bf8341b0eb2b379b0815089feeea16573"
@@ -2072,11 +2127,6 @@
       "path": "apps/macos/pkg/scripts/postinstall",
       "bytes": 1577,
       "sha256": "0d38047624b3a795f5306b99b857e09f599db8c62c7676a31754f22bdb802df7"
-    },
-    {
-      "path": "apps/macos/README.md",
-      "bytes": 2233,
-      "sha256": "d2daf85861d4abec224a6192e859adf4b27f199bef3fe2944618d0c587e9a8b5"
     },
     {
       "path": "apps/macos/resources/en.lproj/InfoPlist.strings",
@@ -2569,6 +2619,16 @@
       "sha256": "8f4bd71d6137dc6615acede486d798ad8459904b54d7f06363a667c01f99baad"
     },
     {
+      "path": "apps/windows/README.md",
+      "bytes": 7366,
+      "sha256": "26ad9b32a252162efc922fe1afc629a23413fdd0b4decbd54fed05e08a9479aa"
+    },
+    {
+      "path": "apps/windows/installer/README.md",
+      "bytes": 6531,
+      "sha256": "4c2d101255fc77cf63c23941403211a72c445bb497edb6fabf342f695c2555f1"
+    },
+    {
       "path": "apps/windows/installer/build.ps1",
       "bytes": 7346,
       "sha256": "881a679118495ab807e285dc7587b055503f9c176a2b81b5a0285b9e820f29fb"
@@ -2577,11 +2637,6 @@
       "path": "apps/windows/installer/qingjian.iss",
       "bytes": 17133,
       "sha256": "998434eb63f1fd3dc03512a755cef897345d53dcec64f348db11b052e684120a"
-    },
-    {
-      "path": "apps/windows/installer/README.md",
-      "bytes": 6531,
-      "sha256": "4c2d101255fc77cf63c23941403211a72c445bb497edb6fabf342f695c2555f1"
     },
     {
       "path": "apps/windows/installer/settings-runtime.txt",
@@ -2594,19 +2649,9 @@
       "sha256": "45f74d0bb788988fd46eb3244093e1744ffd786e13f1580995282746700ed76c"
     },
     {
-      "path": "apps/windows/README.md",
-      "bytes": 7366,
-      "sha256": "26ad9b32a252162efc922fe1afc629a23413fdd0b4decbd54fed05e08a9479aa"
-    },
-    {
       "path": "apps/windows/scripts/test-local.ps1",
       "bytes": 10018,
       "sha256": "cb0d25f4b8591b2971e0f06a74f16560c8d03b63b2d6fa5567a453a3bb0677a3"
-    },
-    {
-      "path": "apps/windows/server/build.rs",
-      "bytes": 2225,
-      "sha256": "77801686d1309040790bbcd828f69a4bf57e86adfeace8130f34a66bc3b9a806"
     },
     {
       "path": "apps/windows/server/Cargo.toml",
@@ -2617,6 +2662,11 @@
       "path": "apps/windows/server/README.md",
       "bytes": 842,
       "sha256": "c155a12fcdeb17822d65999fd0b0d6314e4a9c2a64ede86010628bea4503d5ff"
+    },
+    {
+      "path": "apps/windows/server/build.rs",
+      "bytes": 2225,
+      "sha256": "77801686d1309040790bbcd828f69a4bf57e86adfeace8130f34a66bc3b9a806"
     },
     {
       "path": "apps/windows/server/src/assembly/language_model.rs",
@@ -3049,14 +3099,14 @@
       "sha256": "35166da3791ee639d19f451f8459874d8c0cf26419930b3e471fc0a9acb1b484"
     },
     {
-      "path": "apps/windows/settings/build.rs",
-      "bytes": 3999,
-      "sha256": "2a2d6615a6299089d4aefab492eacf592f54e25c916d0b5db9a902ee0c67fcbe"
-    },
-    {
       "path": "apps/windows/settings/Cargo.toml",
       "bytes": 1344,
       "sha256": "7b66974edfaee3e75eebd8299a7c58004da71faa142858141c698fd9d529e6a6"
+    },
+    {
+      "path": "apps/windows/settings/build.rs",
+      "bytes": 3999,
+      "sha256": "2a2d6615a6299089d4aefab492eacf592f54e25c916d0b5db9a902ee0c67fcbe"
     },
     {
       "path": "apps/windows/settings/src/log.rs",
@@ -3509,6 +3559,11 @@
       "sha256": "2518f44b97b279d0ddf24a48453628c97487a34e9c92cbed09b1765a637618e0"
     },
     {
+      "path": "assets/emoji/LICENSE-unicode.txt",
+      "bytes": 2033,
+      "sha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b"
+    },
+    {
       "path": "assets/emoji/emoji-en.tsv",
       "bytes": 98827,
       "sha256": "10a9667c13036e0f7f6246a1d8987fa3f4554b2de68d0ee935a2d035717da1c0"
@@ -3519,9 +3574,9 @@
       "sha256": "8ea7447dbb700fa73498be36e36e30e16236446e0dd29b326f812de80e7629f0"
     },
     {
-      "path": "assets/emoji/LICENSE-unicode.txt",
-      "bytes": 2033,
-      "sha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b"
+      "path": "assets/glossary/README.md",
+      "bytes": 7270,
+      "sha256": "1a7c4460facc2df065b4c9d9bb84a45be53936fca09e94f7bdee10859eb89101"
     },
     {
       "path": "assets/glossary/glossary-de.tsv",
@@ -3554,9 +3609,9 @@
       "sha256": "f56b59d79947a6eff7c3e8c834cac20a052482654b91e61d6266a39c148aff5e"
     },
     {
-      "path": "assets/glossary/README.md",
-      "bytes": 7270,
-      "sha256": "1a7c4460facc2df065b4c9d9bb84a45be53936fca09e94f7bdee10859eb89101"
+      "path": "assets/icon/README.md",
+      "bytes": 3517,
+      "sha256": "5d7e859dba8c4d7d55b2e03e7747342979f808de9e12f29231d01b94e0cab461"
     },
     {
       "path": "assets/icon/linux/hicolor/128x128/apps/qingjian.png",
@@ -3624,11 +3679,6 @@
       "sha256": "c163255a6a95522731de43e54f6dd14e3482a7cf833deeee2a010ae9ca432a3c"
     },
     {
-      "path": "assets/icon/README.md",
-      "bytes": 3517,
-      "sha256": "5d7e859dba8c4d7d55b2e03e7747342979f808de9e12f29231d01b94e0cab461"
-    },
-    {
       "path": "assets/icon/windows/app-16.svg",
       "bytes": 262,
       "sha256": "d051b427190d3710988922bcdeb876b9bea691cad572189bf18b16d975cbc97e"
@@ -3664,6 +3714,11 @@
       "sha256": "6d97502aebd13affb85d37cf8f4f3571e9b4c788a2c7b833769833525ba1e3a9"
     },
     {
+      "path": "assets/levels/README.md",
+      "bytes": 1796,
+      "sha256": "89f5a8e6beea967a9f870eaa5028fae61625f2de6e0fa37efcce80eb2e83bcb3"
+    },
+    {
       "path": "assets/levels/levels-en.tsv",
       "bytes": 102356,
       "sha256": "ada5c6aa30b0284daf52261674642dc89a74191aa4d8588c2e280ab5f1337ab4"
@@ -3674,9 +3729,9 @@
       "sha256": "888548525af3c429e4d1b59d3966c93447dea52a33d8e0f31e21fe9d9431792d"
     },
     {
-      "path": "assets/levels/README.md",
-      "bytes": 1796,
-      "sha256": "89f5a8e6beea967a9f870eaa5028fae61625f2de6e0fa37efcce80eb2e83bcb3"
+      "path": "assets/lexicon/00_meta/THUOCL_LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "db4b8cca414db4cf487b933d07a0514f77caf44f9f3d392f2bc9d7ba0d511c58"
     },
     {
       "path": "assets/lexicon/00_meta/anomalous_df.tsv",
@@ -3702,11 +3757,6 @@
       "path": "assets/lexicon/00_meta/summary.json",
       "bytes": 3019,
       "sha256": "d76d84056345fcfe7b8e55b735799f721a6831f541e8a464641b6849cdd6f1df"
-    },
-    {
-      "path": "assets/lexicon/00_meta/THUOCL_LICENSE.txt",
-      "bytes": 1063,
-      "sha256": "db4b8cca414db4cf487b933d07a0514f77caf44f9f3d392f2bc9d7ba0d511c58"
     },
     {
       "path": "assets/lexicon/00_meta/variant_forms.tsv",
@@ -3869,11 +3919,6 @@
       "sha256": "600eaddb6aab9f08626f2e6ee6964032446eca50ae82949ae8d0dbe6a6dac72d"
     },
     {
-      "path": "assets/lexicon/05_english/sources/category_stats.tsv",
-      "bytes": 358,
-      "sha256": "8c8b3b542d45eb8736692efbdb6f261658d63b8834cc7a970a2194ce78204d8b"
-    },
-    {
       "path": "assets/lexicon/05_english/sources/CSpell_LICENSE-MIT.txt",
       "bytes": 1124,
       "sha256": "6245ecd81789d113a600fa0e4f5f503e6d1b4f425860f6047dc945560dfcf13c"
@@ -3882,6 +3927,11 @@
       "path": "assets/lexicon/05_english/sources/ESDB_Copyright.txt",
       "bytes": 4903,
       "sha256": "71bffd4b74ad47fff01c8b3c666e77da92737854e568850d8728024e0a53f304"
+    },
+    {
+      "path": "assets/lexicon/05_english/sources/category_stats.tsv",
+      "bytes": 358,
+      "sha256": "8c8b3b542d45eb8736692efbdb6f261658d63b8834cc7a970a2194ce78204d8b"
     },
     {
       "path": "assets/lexicon/05_english/sources/esdb_pos_codes.tsv",
@@ -3902,6 +3952,16 @@
       "path": "assets/lexicon/05_english/sources/typos_LICENSE-MIT.txt",
       "bytes": 1062,
       "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+    },
+    {
+      "path": "assets/lexicon/QINGJIAN.md",
+      "bytes": 8254,
+      "sha256": "2549a38c88e1456fa0b6b6d902e3b325b0eb3fe3322baa49ceaf8d4098efc2d9"
+    },
+    {
+      "path": "assets/lexicon/README.md",
+      "bytes": 3841,
+      "sha256": "4d273507b73d846508cea26ca3e588fc09d8a52aeffe0da7eac135d29f2e1899"
     },
     {
       "path": "assets/lexicon/brand.tsv",
@@ -3999,14 +4059,9 @@
       "sha256": "348dc380ce8807a6898706805246635d9f0ce331cc907a6cae475690f3933a2b"
     },
     {
-      "path": "assets/lexicon/QINGJIAN.md",
-      "bytes": 8254,
-      "sha256": "2549a38c88e1456fa0b6b6d902e3b325b0eb3fe3322baa49ceaf8d4098efc2d9"
-    },
-    {
-      "path": "assets/lexicon/README.md",
-      "bytes": 3841,
-      "sha256": "4d273507b73d846508cea26ca3e588fc09d8a52aeffe0da7eac135d29f2e1899"
+      "path": "assets/sample/README.md",
+      "bytes": 508,
+      "sha256": "30bb5ccf1db13f7842ab60097a779ef65ea918f3a20284e6a1cffd38d312e7eb"
     },
     {
       "path": "assets/sample/dict.tsv",
@@ -4039,24 +4094,19 @@
       "sha256": "5e9d979305146503c31acc0885cfaa9019eb29dd24f68ba4c743de5b9268a9f8"
     },
     {
-      "path": "assets/sample/README.md",
-      "bytes": 508,
-      "sha256": "30bb5ccf1db13f7842ab60097a779ef65ea918f3a20284e6a1cffd38d312e7eb"
-    },
-    {
       "path": "assets/stroke/LICENSE-CNS11643.txt",
       "bytes": 4907,
       "sha256": "ff847c29e5fa1e7a0a7f77eebcbb2e75ec875217f0975f41ea7b3947d7f61d30"
     },
     {
-      "path": "assets/stroke/prc-rules.tsv",
-      "bytes": 6851,
-      "sha256": "a8e33335d9f0f452a9cc8865a6577e215ad43a1d64a3f9fac931e78fb79436db"
-    },
-    {
       "path": "assets/stroke/README.md",
       "bytes": 10096,
       "sha256": "8c219748559cc7efa64009a6f345868813f04b9c46ea390232d9dc81ee093971"
+    },
+    {
+      "path": "assets/stroke/prc-rules.tsv",
+      "bytes": 6851,
+      "sha256": "a8e33335d9f0f452a9cc8865a6577e215ad43a1d64a3f9fac931e78fb79436db"
     },
     {
       "path": "assets/stroke/residual-first-strokes.tsv",
@@ -4084,24 +4134,14 @@
       "sha256": "2ca54a4632b6891ede936b73c7c4c0c9198093c1171c8db37b5a233065df4c86"
     },
     {
-      "path": "BUILDING.md",
-      "bytes": 2703,
-      "sha256": "653f565675476e6ce3a419e3d93a36e714b971b37ff1dd8149edd2048ae3ca0f"
-    },
-    {
-      "path": "Cargo.lock",
-      "bytes": 121594,
-      "sha256": "f92fd645d1879ecee02832bd622144805e5336c4635a85407af25e9fc1a7f6d0"
-    },
-    {
-      "path": "Cargo.toml",
-      "bytes": 5742,
-      "sha256": "52dbf2470e10821ef972bb6edd4cf710ae7ed714fa09d610068d436364dfcdfc"
-    },
-    {
       "path": "crates/qingjian-core/Cargo.toml",
       "bytes": 540,
       "sha256": "cb40d0e7407b0ea6195d3b1ac285efdfbdd493e4f4293f026d1ae2b41cac3ce1"
+    },
+    {
+      "path": "crates/qingjian-core/data/README.md",
+      "bytes": 1196,
+      "sha256": "7065628663794eabbbf5408eac883ac3d79190fa54436402df7d45edb7c9d8df"
     },
     {
       "path": "crates/qingjian-core/data/emoji.tsv",
@@ -4114,6 +4154,11 @@
       "sha256": "628373541af88fdb83dfd96f33598d5d21fe41937c8deb8df58eb1a9962d153d"
     },
     {
+      "path": "crates/qingjian-core/data/panel/README.md",
+      "bytes": 835,
+      "sha256": "9ca450d23314bc74687f75cf2013be1778683c7f2247a3b5556c9e1628076368"
+    },
+    {
       "path": "crates/qingjian-core/data/panel/catalog.tsv",
       "bytes": 202745,
       "sha256": "1d75fb4bbdb4829fc86df77fbd332e2b124b5b6d12c3d70d67d5daa4bc4edf8a"
@@ -4122,16 +4167,6 @@
       "path": "crates/qingjian-core/data/panel/keywords.tsv",
       "bytes": 312587,
       "sha256": "92dc1d3c64a164e6d46f62f79441255906add529579e252ac03eaa48e4d7c380"
-    },
-    {
-      "path": "crates/qingjian-core/data/panel/README.md",
-      "bytes": 835,
-      "sha256": "9ca450d23314bc74687f75cf2013be1778683c7f2247a3b5556c9e1628076368"
-    },
-    {
-      "path": "crates/qingjian-core/data/README.md",
-      "bytes": 1196,
-      "sha256": "7065628663794eabbbf5408eac883ac3d79190fa54436402df7d45edb7c9d8df"
     },
     {
       "path": "crates/qingjian-core/data/symbols.tsv",
@@ -5809,14 +5844,14 @@
       "sha256": "6d7b3b7e0015f29b40bdd375ecadba5251ac2f26643f129e30c17c8a54e8ed6d"
     },
     {
-      "path": "crates/qingjian-render/examples/preview.rs",
-      "bytes": 6216,
-      "sha256": "f479c9550f0b80d4951a299926d3462c6a105c3017224896435c2b889a32996f"
-    },
-    {
       "path": "crates/qingjian-render/LICENSE.md",
       "bytes": 977,
       "sha256": "38a9359f3de62b9c405afdd2291fce47217e46f4552922bdbea58368c66d6512"
+    },
+    {
+      "path": "crates/qingjian-render/examples/preview.rs",
+      "bytes": 6216,
+      "sha256": "f479c9550f0b80d4951a299926d3462c6a105c3017224896435c2b889a32996f"
     },
     {
       "path": "crates/qingjian-render/src/animation/easing.rs",
@@ -6399,6 +6434,11 @@
       "sha256": "6e0deb7fbead3991a9e2164ace3fece16fbe9c0e33ac705b67ea844943273a49"
     },
     {
+      "path": "crates/qingjian-render/tests/snapshots.rs",
+      "bytes": 15059,
+      "sha256": "ab66f5e278e1f8a10f28b3ae53dfd4a9a2ff50e17c83a9aafd76df463ab0ff65"
+    },
+    {
       "path": "crates/qingjian-render/tests/snapshots/macos/aux-code-horizontal-dark.png",
       "bytes": 16744,
       "sha256": "000b1aa11b4104332218aed5362177eb0de7d19bd57f82a6d4e33ce3c58ae306"
@@ -6859,11 +6899,6 @@
       "sha256": "f9d50c144a3403db67ca108c64039fb248991303a7d50a12a226a13636eafd47"
     },
     {
-      "path": "crates/qingjian-render/tests/snapshots.rs",
-      "bytes": 15059,
-      "sha256": "ab66f5e278e1f8a10f28b3ae53dfd4a9a2ff50e17c83a9aafd76df463ab0ff65"
-    },
-    {
       "path": "crates/qingjian-render/tests/theme/fonts.rs",
       "bytes": 3482,
       "sha256": "b0208e3e96cdc5dbb0f3d25f214bf21f6236bc7887f605cd542b49c43567d096"
@@ -6897,6 +6932,11 @@
       "path": "crates/qingjian-render/tests/themes/showcase/theme.json",
       "bytes": 5051,
       "sha256": "4d2f7917996c1d67517382bb20892664536c5e07331a4bea1b07ed185c6d4840"
+    },
+    {
+      "path": "crates/qingjian-render/themes/bocchi/README.md",
+      "bytes": 414,
+      "sha256": "7fede805a71b89060fab7c60dbf4487c3cc87666308b8f3fc76f63c34a6ae7ee"
     },
     {
       "path": "crates/qingjian-render/themes/bocchi/images/amp.png",
@@ -6969,14 +7009,14 @@
       "sha256": "e40c9b0b487caccbeae99c0986b0886fb09dcada41b3a30472dabbdf2a9a33f2"
     },
     {
-      "path": "crates/qingjian-render/themes/bocchi/README.md",
-      "bytes": 414,
-      "sha256": "7fede805a71b89060fab7c60dbf4487c3cc87666308b8f3fc76f63c34a6ae7ee"
-    },
-    {
       "path": "crates/qingjian-render/themes/bocchi/theme.json",
       "bytes": 12715,
       "sha256": "baabaf66781586d6c48d1ed400ea4bca683e4739c509fe433baa5a028dc71ef2"
+    },
+    {
+      "path": "crates/qingjian-render/themes/dafeiyu/README.md",
+      "bytes": 473,
+      "sha256": "ad4f62cba6a0561087889064cba64fbb9878dd2b6617303751ff5feec077deca"
     },
     {
       "path": "crates/qingjian-render/themes/dafeiyu/images/bubble.svg",
@@ -7049,14 +7089,14 @@
       "sha256": "d55579005ce3cfc3345b83d08633f70470558760ec76af18cd921274e2585afe"
     },
     {
-      "path": "crates/qingjian-render/themes/dafeiyu/README.md",
-      "bytes": 473,
-      "sha256": "ad4f62cba6a0561087889064cba64fbb9878dd2b6617303751ff5feec077deca"
-    },
-    {
       "path": "crates/qingjian-render/themes/dafeiyu/theme.json",
       "bytes": 16105,
       "sha256": "5986c3f82ff93f1f15e5ca587744b42280de4bd09137e816bc014e110b2c3460"
+    },
+    {
+      "path": "crates/qingjian-render/themes/miku/README.md",
+      "bytes": 516,
+      "sha256": "dab2aca8b33da3d4166b507c89ae3436734abe39c4db5ccd3a92fb93c41ea224"
     },
     {
       "path": "crates/qingjian-render/themes/miku/images/chevron-left.svg",
@@ -7127,11 +7167,6 @@
       "path": "crates/qingjian-render/themes/miku/images/settings.svg",
       "bytes": 786,
       "sha256": "4cbad4872cf6315c514984cfbb23f266cc1163699bd7162015ade2bbe4b31158"
-    },
-    {
-      "path": "crates/qingjian-render/themes/miku/README.md",
-      "bytes": 516,
-      "sha256": "dab2aca8b33da3d4166b507c89ae3436734abe39c4db5ccd3a92fb93c41ea224"
     },
     {
       "path": "crates/qingjian-render/themes/miku/theme.json",
@@ -7344,34 +7379,9 @@
       "sha256": "cd40a9a2f5d9221bddcff866b3e4c489123db22122900913e61a27f5683ca049"
     },
     {
-      "path": "LICENSE",
-      "bytes": 35149,
-      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-    },
-    {
-      "path": "PRIVACY.md",
-      "bytes": 1714,
-      "sha256": "b5b4e325248e7bd62ac47ac257d6705929836133f5bdfea6693aa5d7d088662c"
-    },
-    {
-      "path": "README.md",
-      "bytes": 1876,
-      "sha256": "4232fd80150ba14e33c5b44c05825c4950ceb0495344b2032681ed69dba796d7"
-    },
-    {
-      "path": "RELEASING.md",
-      "bytes": 1804,
-      "sha256": "1b731077755c461ed7a97fee4d8c7c36beb1ba0e40483e8ceb8fd8dd94851fc8"
-    },
-    {
       "path": "rust-toolchain.toml",
       "bytes": 66,
       "sha256": "e59c5da37d1f9f4e0f815bc188cb6056fc7410c9cdaa9673c2d44da557c75d12"
-    },
-    {
-      "path": "THIRD-PARTY.md",
-      "bytes": 1908,
-      "sha256": "6257621a2521d210d68d6dfd421d3b416b56ec13084101a4baea60cd33ba1966"
     },
     {
       "path": "tools/corpus/english_frequency.py",
@@ -7664,6 +7674,16 @@
       "sha256": "560328ec4dd4af47c9eb4074ffebe34104615cbe0018e705569c24560c3cd7cb"
     },
     {
+      "path": "tools/release-sign/Cargo.toml",
+      "bytes": 464,
+      "sha256": "7ec7baa2646d2ac3ce23493506c8137740fa0ea43af3417fb3d159783a984838"
+    },
+    {
+      "path": "tools/release-sign/src/main.rs",
+      "bytes": 4486,
+      "sha256": "1ae657df9aa04706764aab46f91b248161c3b9717655f37f50d8c8ce760e4a38"
+    },
+    {
       "path": "tools/release/bump-website.sh",
       "bytes": 1742,
       "sha256": "ae9bcae10f6af0db1d64531958dd6e5c563c26c51479d69a4f8329bb6ebbc3cf"
@@ -7709,14 +7729,9 @@
       "sha256": "d5846d2049fd5e53e157c0d26ae1e1710c681184cef103de4cdfda4ad10bd3b3"
     },
     {
-      "path": "tools/release-sign/Cargo.toml",
-      "bytes": 464,
-      "sha256": "7ec7baa2646d2ac3ce23493506c8137740fa0ea43af3417fb3d159783a984838"
-    },
-    {
-      "path": "tools/release-sign/src/main.rs",
-      "bytes": 4486,
-      "sha256": "1ae657df9aa04706764aab46f91b248161c3b9717655f37f50d8c8ce760e4a38"
+      "path": "updates/README.md",
+      "bytes": 1340,
+      "sha256": "d9e26501a97c628df3342f2252fcad80c9b25c176dbf3a8e6f62050f3ce2ef36"
     },
     {
       "path": "updates/index.json",
@@ -7727,16 +7742,6 @@
       "path": "updates/payload.json",
       "bytes": 127,
       "sha256": "a32b399f0537e46a660ea49a5ce4fcb74b354f3fe653b7123109c05c0636165a"
-    },
-    {
-      "path": "updates/README.md",
-      "bytes": 1340,
-      "sha256": "d9e26501a97c628df3342f2252fcad80c9b25c176dbf3a8e6f62050f3ce2ef36"
-    },
-    {
-      "path": "UPDATES.md",
-      "bytes": 1287,
-      "sha256": "dc86291f7ea35dbaec691507129acc5eefdecac1b76dfe90aaa731962816e665"
     }
   ],
   "scope": "current source snapshot; no Git history or private artifacts"
