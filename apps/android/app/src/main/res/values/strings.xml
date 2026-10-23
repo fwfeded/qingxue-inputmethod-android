@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">青学输入法</string>
+    <string name="domain_summary">随包提供 11 本领域词库，默认仅启用成语。更改后重新进入输入框生效。部分词条没有英文释义。</string>
+    <string name="domain_ready">共 %1$d 本内置词库，可分别启停。</string>
+    <string name="domain_row">%1$s · %2$d 条</string>
+    <string name="domain_unavailable">%1$s · 数据不可用</string>
+    <string name="domain_saved">已保存。请重新进入输入框。</string>
+    <string name="domain_error">读取失败：%1$s</string>
+    <string name="learning_backup_summary">导出或恢复个人学习记录。备份为明文，含个人词汇。</string>
+    <string name="learning_backup_details">包括已保存的词频、用户词、选词偏好、英文词、纠错、个人词序、译词记录与统计。\n\n不包含完整输入日志、设置和附加词库。请先完成正在输入的内容，并把明文备份保存到可信位置。\n\n单表上限 4 MB，合计 16 MB。支持本应用 v1 格式备份。恢复前显示记录数量并确认；替换当前记录，不合并计数。恢复前建议先导出一份当前记录。</string>
+    <string name="learning_backup_success">已导出学习备份：%1$d 张已保存的学习表。</string>
+    <string name="phrase_count">已保存 %1$d 条；重新进入输入框生效。</string>
+    <string name="phrase_row">%1$s · 第 %2$d 位
+%3$s</string>
+    <string name="phrase_error">无法保存：%1$s</string>
+    <string name="phrase_load_error">规则无法读取：%1$s。基础输入仍可使用；可清空这些规则后重新添加。</string>
+</resources>

@@ -1,0 +1,38 @@
+# //! 只验证/产出未签名 Android 包，无发布权限；由 export.py 放入审阅快照。
+name: Android source build
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unsigned:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Toolchain
+        run: |
+          rustup toolchain install 1.96.0 --profile minimal --component clippy,rustfmt
+          rustup default 1.96.0
+          rustup target add aarch64-linux-android x86_64-linux-android
+          sdkmanager 'platforms;android-35' 'build-tools;35.0.0' 'ndk;27.3.13750724'
+          python -m pip install cmake==3.31.6 ninja==1.11.1.4
+          chmod +x apps/android/gradlew
+      - name: Build and lint
+        run: >-
+          python apps/android/release/build.py
+          --sdk "$ANDROID_HOME" --ndk "$ANDROID_HOME/ndk/27.3.13750724"
+          --java "$JAVA_HOME" --ninja "$(command -v ninja)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unsigned-review-only
+          path: |
+            apps/android/app/build/outputs/apk/release/*-unsigned.apk
+            apps/android/app/build/reports/lint-results-release.*

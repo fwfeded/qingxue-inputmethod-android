@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries><intent><action android:name="android.speech.RecognitionService" /></intent></queries>
+    <!-- 动态局域网地址不能用静态域名白名单；OnlineVoiceConfig 仅放行私网 IP 的 ws，其余强制 wss。 -->
+    <application android:allowBackup="false" android:usesCleartextTraffic="true" android:label="@string/ime_name" android:supportsRtl="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingsActivity" android:exported="false" />
+        <activity android:name=".TryInputActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AppearanceActivity" android:exported="false" />
+        <activity android:name=".DictionaryActivity" android:exported="false" />
+        <activity android:name=".PhraseBackupActivity" android:exported="false" />
+        <activity android:name=".PhraseActivity" android:exported="false" />
+        <activity android:name=".DomainActivity" android:exported="false" />
+        <activity android:name=".LearningBackupActivity" android:exported="false" />
+        <activity android:name=".VoiceSettingsActivity" android:exported="false" />
+        <activity android:name=".TextToolsActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".TextModelActivity" android:exported="false" />
+        <service android:name=".TextService" android:process=":text" android:exported="false" />
+        <activity android:name=".VoicePermissionActivity" android:exported="false" android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar" />
+        <service android:name=".VoiceService" android:process=":voice" android:exported="false" />
+        <service android:name=".PrototypeIme" android:process=":ime" android:directBootAware="true" android:label="@string/ime_name" android:permission="android.permission.BIND_INPUT_METHOD" android:exported="true">
+            <intent-filter><action android:name="android.view.InputMethod" /></intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+    </application>
+</manifest>

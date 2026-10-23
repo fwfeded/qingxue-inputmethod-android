@@ -1,0 +1,15 @@
+文字模型：Qwen2.5-1.5B-Instruct-GGUF，Q4_K_M，Apache-2.0。
+固定版本 91cad51170dc346986eccefdc2dd33a9da36ead9。
+https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+国内下载源 https://modelscope.cn/models/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+SHA-256 6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e
+权重按用户选择下载，不包含在 APK 中。请阅读同目录 Qwen-APACHE-2.0.txt。
+
+推理运行时：llama.cpp b11750 / dd002b91f583af0b80140f9a140dc04856bfc2e0，MIT。
+https://github.com/ggml-org/llama.cpp
+来源源码在项目 .tools/text-models/llama.cpp-b11750；构建脚本 apps/android/scripts/build-text.ps1。
+另含 nlohmann/json（MIT）及 ggml；完整许可见同目录附属文件。
+
+声音：青学独立合成轻触、清脆、低音，字母/退格/操作九个音频。
+生成脚本 apps/android/scripts/generate-feedback.py；随青学源码以 GPL-3.0-or-later 提供。
+不包含微信或豆包输入法的音频或模型文件。

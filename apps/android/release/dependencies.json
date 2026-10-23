@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "sherpa": {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-1.13.8.aar",
+    "path": "speech/sherpa-onnx-1.13.8.aar",
+    "sha256": "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96"
+  },
+  "llama": {
+    "url": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/b11750.zip",
+    "path": "text-models/llama-b11750-source.zip",
+    "directory": "text-models/llama.cpp-b11750",
+    "commit": "dd002b91f583af0b80140f9a140dc04856bfc2e0",
+    "sha256": "03b64070d390021683e14eb9158cdd34cf5b8a65cd4d364296b561f868e6e6b7"
+  },
+  "data": {
+    "url": "https://github.com/qingjian-team/qingjian/releases/download/data-v7/qingjian-data.tar.gz",
+    "path": "downloads/qingjian-data-v7.tar.gz",
+    "sha256": "e259f8bc2a5456c92484c5d4362ca56b3e46b3d2e1a0d463788091a039d79e40"
+  }
+}

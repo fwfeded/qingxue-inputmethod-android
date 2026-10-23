@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity android:name="dev.qingstudy.ime.PhoneFixtureActivity"
+            android:exported="true" android:windowSoftInputMode="adjustResize"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+        <!-- 仅存在于测试 APK，用独立应用进程验证跨应用 InputConnection。 -->
+        <activity android:name="dev.qingstudy.ime.EditorFixtureActivity"
+            android:exported="true" android:windowSoftInputMode="adjustResize"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+    </application>
+</manifest>

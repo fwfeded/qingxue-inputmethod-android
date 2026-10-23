@@ -1,0 +1,15 @@
+英语等级数据（A1–C2）
+
+The CEFR-J Wordlist Version 1.5, compiled by Yukio Tono,
+Tokyo University of Foreign Studies.
+来源：http://www.cefr-j.org/download.html
+A1–B2；上游注明研究与商业用途免费，须保留署名。
+
+Octanove Vocabulary Profile C1/C2 1.0
+来源：https://github.com/openlanguageprofiles/olp-en-cefrj
+许可：Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+
+随包表沿用青简 assets/levels/levels-en.tsv，未作修改。
+上游转换规则：合并拼写变体、统一小写、同词多个等级取最低等级。
+统计仅描述本机记录中的译词，不是英语能力测评。

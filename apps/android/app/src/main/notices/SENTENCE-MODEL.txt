@@ -1,0 +1,7 @@
+离线整句模型：青简 qingjian-lm / data-v7 的 lm.qj。
+来源：https://github.com/qingjian-team/qingjian/releases/tag/data-v7
+模型来自中文维基百科语料（Wikimedia / contributors，CC BY-SA 4.0）与 LCCC 对话语料（清华大学 CoAI，MIT）的词级统计。
+按上游数据许可分发，原始 lm.qj 未作修改。
+CC BY-SA 4.0：https://creativecommons.org/licenses/by-sa/4.0/
+LCCC：https://github.com/thu-coai/LCCC
+具体模型名称、来源与许可证也保留在 lm.qj 内嵌元数据中。
