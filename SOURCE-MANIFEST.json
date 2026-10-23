@@ -5,8 +5,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 20,
-      "sha256": "d711b6ba64c7208f3059111e2a74a2453348584bef1fec237198ad08befe28b9"
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
     },
     {
       "path": ".github/workflows/android.yml",
@@ -460,8 +460,8 @@
     },
     {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/updates/UpdateUiTest.kt",
-      "bytes": 2976,
-      "sha256": "1a17a3d7cd97cef5ad30188c4e67b0b79ee2ba9e693ef997f37ed6961795b0b2"
+      "bytes": 3910,
+      "sha256": "bf9943dbf0d7364d58c6746338a63f5e65cf226adf285b72183a76a4dace7afd"
     },
     {
       "path": "apps/android/app/src/androidTest/java/dev/qingstudy/ime/VocabularyLevelsTest.kt",
@@ -1375,8 +1375,8 @@
     },
     {
       "path": "apps/android/release/docs/PRIVACY.md",
-      "bytes": 1504,
-      "sha256": "159d3615ea4ad030633d0ee8db6997c4ff551c58c3b5091972da6933929c9cd5"
+      "bytes": 1714,
+      "sha256": "b5b4e325248e7bd62ac47ac257d6705929836133f5bdfea6693aa5d7d088662c"
     },
     {
       "path": "apps/android/release/docs/README.md",
@@ -1400,8 +1400,8 @@
     },
     {
       "path": "apps/android/release/export.py",
-      "bytes": 5407,
-      "sha256": "917620aed2e18dfd05c31472841c55ca8b1520f5430c10edbe2f78a2ad244fd7"
+      "bytes": 5435,
+      "sha256": "ce55f12c3ae6e135e67ea9c738757bce677d49c1545377eaf5303a3010813aaf"
     },
     {
       "path": "apps/android/release/prepare.py",
@@ -7350,8 +7350,8 @@
     },
     {
       "path": "PRIVACY.md",
-      "bytes": 1504,
-      "sha256": "159d3615ea4ad030633d0ee8db6997c4ff551c58c3b5091972da6933929c9cd5"
+      "bytes": 1714,
+      "sha256": "b5b4e325248e7bd62ac47ac257d6705929836133f5bdfea6693aa5d7d088662c"
     },
     {
       "path": "README.md",

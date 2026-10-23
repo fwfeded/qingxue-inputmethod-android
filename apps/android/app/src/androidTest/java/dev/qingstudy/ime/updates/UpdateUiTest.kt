@@ -6,6 +6,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.Until
+import androidx.test.uiautomator.Direction
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -43,6 +44,17 @@ class UpdateUiTest {
             device.findObject(By.text("检查更新")).click()
             val connected = device.wait(Until.hasObject(By.text("发布源已连接，尚无可供下载的正式版本")), 45000)
             assertTrue("真实 GitHub HTTPS 索引状态：${UpdateManager.state}", connected)
+            device.takeScreenshot(java.io.File(context.getExternalFilesDir(null), "update-connected.png"))
+            device.findObject(By.clazz("android.widget.ScrollView")).scroll(Direction.DOWN, .8f)
+            device.waitForIdle()
+            device.wait(Until.findObject(By.text("更新渠道 · 测试版")), 5000)!!.click()
+            device.wait(Until.findObject(By.text("稳定版")), 5000)!!.click()
+            assertTrue(device.wait(Until.hasObject(By.text("更新渠道 · 稳定版")), 5000))
+            assertEquals("stable", prefs.getString("channel", ""))
+            val wifi = device.wait(Until.findObject(By.text("仅在 Wi-Fi 下下载")), 5000)!!
+            assertTrue(wifi.isChecked); wifi.click()
+            assertTrue(device.wait(Until.hasObject(By.text("仅在 Wi-Fi 下下载").checked(false)), 5000))
+            assertFalse(prefs.getBoolean("wifi", true))
         } finally {
             inst.runOnMainSync { UpdateManager.reset() }
             val edit = prefs.edit().clear()

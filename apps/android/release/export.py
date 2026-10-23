@@ -76,7 +76,7 @@ def export(destination):
     guide = ROOT / "docs/user/android-app-updates.md"
     if guide.exists():
         copy_source(guide, destination / "UPDATES.md")
-    (destination / ".gitattributes").write_text("* text=auto eol=lf\n", encoding="utf-8")
+    (destination / ".gitattributes").write_text("* text=auto eol=lf\n", encoding="utf-8", newline="\n")
     workflow = destination / ".github/workflows/android.yml"
     workflow.parent.mkdir(parents=True)
     copy_source(ROOT / "apps/android/release/android-ci.yml.template", workflow)
@@ -86,7 +86,7 @@ def export(destination):
              for path in sorted(destination.rglob("*")) if path.is_file()]
     report = {"status": "source-snapshot", "upstream": "https://github.com/qingjian-team/qingjian",
               "upstream_commit": upstream, "files": files, "scope": "current source snapshot; no Git history or private artifacts"}
-    (destination / "SOURCE-MANIFEST.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (destination / "SOURCE-MANIFEST.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps({"files": len(files), "bytes": sum(f["bytes"] for f in files), "destination": str(destination)}, ensure_ascii=False))
 
 
